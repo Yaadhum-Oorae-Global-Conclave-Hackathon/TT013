@@ -7,4 +7,9 @@
     <color name="white">@android:color/white</color>
     <color name="transparent">@android:color/transparent</color>
     <color name="grey">@android:color/darker_gray</color>
+
+    <color name="clr_light_blue">#037CFF</color>
+    <color name="clr_dark_blue">#0148A4</color>
+    <color name="clr_google_btn">#F14436</color>
+    <color name="clr_fb_btn">#385C8E</color>
 </resources>
