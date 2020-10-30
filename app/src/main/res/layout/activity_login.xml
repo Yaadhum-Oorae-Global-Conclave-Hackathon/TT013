@@ -38,7 +38,7 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="55dp"
             android:layout_marginTop="30dp"
             android:drawableLeft="@drawable/person"
             android:paddingLeft="20dp"
@@ -52,7 +52,7 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="55dp"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="15sp"
             android:layout_marginRight="15sp"
@@ -88,8 +88,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -98,13 +98,14 @@
                 android:layout_height="wrap_content"
                 android:text="Don't have an account?"
                 android:textSize="20sp"
+                android:layout_marginTop="20dp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/text_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/text_container1"
                 android:backgroundTint="@color/colorPrimary"
                 android:padding="10dp"
