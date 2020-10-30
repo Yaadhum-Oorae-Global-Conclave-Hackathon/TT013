@@ -21,6 +21,7 @@
             android:gravity="center_horizontal"
             >
             <TextView
+                android:id="@+id/transcript_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Transcript"
@@ -30,14 +31,26 @@
                 android:textColor="@color/colorPrimary"
                 />
             <EditText
+                android:id="@+id/transcript_name_et"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:hint="Transcript name"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:id="@+id/transcript_et"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:hint="Transcript name"
+                android:hint="Transcript"
                 android:padding="10dp"
                 android:textStyle="bold"
                 android:layout_marginTop="20dp"
                 />
             <Button
+                android:id="@+id/start_recording_btn"
                 android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:text="Start recording"
@@ -52,6 +65,7 @@
                 android:drawableTint="@android:color/white"
                 />
             <Button
+                android:id="@+id/save_recording_button"
                 android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:text="Save transcript"
@@ -60,6 +74,7 @@
                 android:background="@drawable/text_container1"
                 android:padding="10dp"
                 android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
                 android:drawableLeft="@drawable/save_icon"
                 android:drawableTint="@color/white"
                 />
