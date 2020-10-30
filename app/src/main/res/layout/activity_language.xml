@@ -49,6 +49,7 @@
                 android:layout_marginTop="10dp"
                 />
             <TextView
+                android:id="@+id/eng_select"
                 android:layout_width="220dp"
                 android:layout_height="50dp"
                 android:background="@drawable/text_container1"
@@ -61,6 +62,7 @@
                 android:drawableRight="@drawable/navigate_next"
                 />
             <TextView
+                android:id="@+id/tamil_select"
                 android:layout_width="220dp"
                 android:layout_height="50dp"
                 android:background="@drawable/text_container1"
@@ -74,6 +76,7 @@
                 />
 
             <TextView
+                android:id="@+id/hindi_select"
                 android:layout_width="220dp"
                 android:layout_height="50dp"
                 android:background="@drawable/text_container1"
