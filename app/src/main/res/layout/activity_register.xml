@@ -29,7 +29,7 @@
             android:layout_marginTop="5dp"/>
 
         <EditText
-            android:id="@+id/login_email_et"
+            android:id="@+id/register_username_et"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="30dp"
@@ -43,7 +43,7 @@
             android:background="@drawable/bg_edit_text__blue_border"/>
 
         <EditText
-            android:id="@+id/login_email_et1"
+            android:id="@+id/register_email_et"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="30dp"
@@ -54,10 +54,10 @@
             android:textColor="@color/clr_light_blue"
             android:textStyle="bold"
             android:inputType="textEmailAddress"
-            android:background="@drawable/bg_white_edit_text"/>
+            android:background="@drawable/bg_edit_text__blue_border"/>
 
         <EditText
-            android:id="@+id/login_email_et2"
+            android:id="@+id/register_phone_et"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="30dp"
@@ -72,7 +72,7 @@
             android:background="@drawable/bg_white_edit_text"/>
 
         <EditText
-            android:id="@+id/login_pass_et"
+            android:id="@+id/register_pass_et"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="30dp"
@@ -82,11 +82,11 @@
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             android:hint="Password"
-            android:inputType="numberPassword"
+            android:inputType="textPassword"
             android:background="@drawable/bg_white_edit_text"/>
 
         <EditText
-            android:id="@+id/login_pass_et1"
+            android:id="@+id/register_pass_et1"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="30dp"
@@ -96,13 +96,13 @@
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             android:hint="Confirm Password"
-            android:inputType="numberPassword"
+            android:inputType="textPassword"
             android:background="@drawable/bg_white_edit_text"/>
 
 
 
         <Button
-            android:id="@+id/login_button"
+            android:id="@+id/create_button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="CREATE"
@@ -128,7 +128,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/login_register_btn"
+                android:id="@+id/register_login_btn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"

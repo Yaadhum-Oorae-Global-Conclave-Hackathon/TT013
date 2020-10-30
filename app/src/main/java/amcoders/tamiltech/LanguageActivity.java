@@ -9,10 +9,13 @@ import android.widget.TextView;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class LanguageActivity extends AppCompatActivity {
 
     private TextView EngSelect, TamSelect;
     private String language;
+    private FirebaseAuth mAuth;
 
 
     @Override
@@ -20,8 +23,17 @@ public class LanguageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language);
 
+
+        mAuth = FirebaseAuth.getInstance();
         EngSelect = (TextView) findViewById(R.id.eng_select);
         TamSelect = (TextView) findViewById(R.id.tamil_select);
+
+        if (mAuth.getCurrentUser() != null)
+        {
+            Intent dIntent = new Intent(LanguageActivity.this, DashboardActivity.class);
+            dIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(dIntent);
+        }
 
         EngSelect.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
