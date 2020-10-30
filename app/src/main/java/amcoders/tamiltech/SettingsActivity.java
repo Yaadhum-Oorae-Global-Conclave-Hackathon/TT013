@@ -25,7 +25,7 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mAuth.signOut();
-                Intent dIntent = new Intent(SettingsActivity.this, DashboardActivity.class);
+                Intent dIntent = new Intent(SettingsActivity.this, LanguageActivity.class);
                 dIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(dIntent);
             }

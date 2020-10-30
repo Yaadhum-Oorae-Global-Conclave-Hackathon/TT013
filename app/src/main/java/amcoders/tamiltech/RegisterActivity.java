@@ -83,7 +83,6 @@ public class RegisterActivity extends AppCompatActivity {
                                     public void onComplete(@NonNull Task<AuthResult> task) {
                                         if (task.isSuccessful())
                                         {
-                                            progressDialog.dismiss();
                                             mAuth.signInWithEmailAndPassword(email,password)
                                                     .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                                                         @Override
