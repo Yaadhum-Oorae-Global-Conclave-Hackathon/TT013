@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class DashboardActivity extends AppCompatActivity {
-    private LinearLayout transcriptLayout;
+    private LinearLayout transcriptLayout,formsLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,12 +16,20 @@ public class DashboardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
         transcriptLayout = (LinearLayout) findViewById(R.id.transcript_llt);
+        formsLayout = (LinearLayout) findViewById(R.id.forms_llt);
 
         transcriptLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent tIntent = new Intent(DashboardActivity.this, TranscriptActivity.class);
                 startActivity(tIntent);
+            }
+        });
+        formsLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent formIntent = new Intent(DashboardActivity.this,FormsActivity.class);
+                startActivity(formIntent);
             }
         });
     }
