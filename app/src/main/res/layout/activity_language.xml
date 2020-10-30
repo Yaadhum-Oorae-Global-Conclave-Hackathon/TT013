@@ -48,31 +48,33 @@
                 android:textColor="@android:color/holo_orange_dark"
                 android:layout_marginTop="10dp"
                 />
-            <TextView
-                android:id="@+id/eng_select"
-                android:layout_width="220dp"
-                android:layout_height="50dp"
-                android:background="@drawable/text_container1"
-                android:layout_marginTop="15dp"
-                android:text="English"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:gravity="center"
-                android:drawableRight="@drawable/navigate_next"
-                />
+
             <TextView
                 android:id="@+id/tamil_select"
                 android:layout_width="220dp"
                 android:layout_height="50dp"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/text_container1"
-                android:layout_marginTop="10dp"
                 android:text="தமிழ்"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="10dp"
                 android:drawableRight="@drawable/navigate_next"
                 android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/eng_select"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:background="@drawable/text_container1"
+                android:layout_marginTop="10dp"
+                android:text="English"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                android:drawableRight="@drawable/navigate_next"
                 />
 
             <TextView
