@@ -8,26 +8,27 @@
         android:id="@+id/image_headd"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/headd"
+        android:src="@drawable/bg22"
         android:layout_alignParentTop="true"
-        android:scaleType="centerInside"/>
+        android:scaleType="fitXY"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_below="@id/image_headd"
         android:gravity="center"
-        android:paddingRight="15sp"
-        android:paddingLeft="15sp">
+        android:layout_alignParentBottom="true"
+       >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Welcome back!"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/holo_orange_dark"
             android:textSize="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="15dp"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
@@ -41,6 +42,8 @@
             android:layout_marginTop="30dp"
             android:drawableLeft="@drawable/person"
             android:paddingLeft="20dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
             android:hint="Email ID"
             android:textColor="@color/clr_light_blue"
             android:textStyle="bold"
@@ -51,6 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="30dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
             android:drawableLeft="@drawable/person"
             android:paddingLeft="20dp"
             android:textColor="@color/clr_light_blue"
@@ -66,6 +71,8 @@
             android:textStyle="bold"
             android:textSize="15sp"
             android:padding="5dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
             android:layout_gravity="end"
             android:layout_marginTop="8dp"/>
 
@@ -78,33 +85,33 @@
             android:background="@drawable/bg_btn"
             android:backgroundTint="@android:color/holo_orange_dark"
             android:layout_marginTop="20dp"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Don't have an account?"
-                android:textStyle="bold"
                 android:textSize="20sp"
-                />
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:text="Join us"
-                android:padding="10dp"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="@color/colorPrimary"
                 android:background="@drawable/text_container1"
-                android:textColor="@color/white"/>
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="10dp"
+                android:text="Join us"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
