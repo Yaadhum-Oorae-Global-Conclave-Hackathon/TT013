@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="30dp"
-            android:drawableLeft="@drawable/person"
+            android:drawableLeft=""
             android:paddingLeft="20dp"
             android:layout_marginLeft="15sp"
             android:layout_marginRight="15sp"
@@ -58,7 +58,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="15sp"
             android:layout_marginRight="15sp"
-            android:drawableLeft="@drawable/person"
+
             android:paddingLeft="20dp"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"

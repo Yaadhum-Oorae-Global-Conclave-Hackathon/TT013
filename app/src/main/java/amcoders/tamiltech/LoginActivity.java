@@ -1,5 +1,7 @@
 package amcoders.tamiltech;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -13,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
@@ -23,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button RegisterButton;
     String email,password;
     private FirebaseAuth mAuth;
+    ProgressDialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         emailET = (EditText) findViewById(R.id.login_email_et);
         passET = (EditText) findViewById(R.id.login_pass_et);
         RegisterButton = (Button) findViewById(R.id.login_register_btn);
+        dialog = new ProgressDialog(this);
 
         forgotLink.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful())
                                     {
-                                        Toast.makeText(LoginActivity.this, "Success", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(LoginActivity.this, "Password reset link has been sent successfully", Toast.LENGTH_SHORT).show();
                                     }
                                     else
                                     {
@@ -69,6 +74,43 @@ public class LoginActivity extends AppCompatActivity {
         RegisterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent registerIntent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(registerIntent);
+
+            }
+        });
+
+        LoginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                email = emailET.getText().toString();
+                password = passET.getText().toString();
+
+                if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password))
+                {
+                    Toast.makeText(LoginActivity.this, "Please fill all the credentials", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    dialog.setTitle("Please wait");
+                    dialog.setMessage("We are authenticating your credentials");
+                    mAuth = FirebaseAuth.getInstance();
+                    mAuth.signInWithEmailAndPassword(email,password)
+                            .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    if(task.isSuccessful())
+                                    {
+                                        Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                                    }
+                                    else
+                                    {
+                                        String msg = task.getException().getMessage();
+                                        Toast.makeText(LoginActivity.this, msg, Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                            });
+                }
 
             }
         });
