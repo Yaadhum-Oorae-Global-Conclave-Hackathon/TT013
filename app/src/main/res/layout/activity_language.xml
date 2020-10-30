@@ -77,20 +77,7 @@
                 android:drawableRight="@drawable/navigate_next"
                 />
 
-            <TextView
-                android:id="@+id/hindi_select"
-                android:layout_width="220dp"
-                android:layout_height="50dp"
-                android:background="@drawable/text_container1"
-                android:layout_marginTop="10dp"
-                android:text="हिंदी"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:layout_marginBottom="10dp"
-                android:drawableRight="@drawable/navigate_next"
-                android:gravity="center"
-                />
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
