@@ -58,7 +58,7 @@
             android:layout_marginRight="15sp"
             android:drawableLeft="@drawable/person"
             android:paddingLeft="20dp"
-            android:textColor="@color/clr_light_blue"
+            android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             android:hint="Password"
             android:inputType="numberPassword"
