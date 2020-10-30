@@ -25,7 +25,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Forms"
+                android:text="@string/forms_message"
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:padding="10dp"
@@ -49,7 +49,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Personal details"
+                    android:text="@string/personal"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     />

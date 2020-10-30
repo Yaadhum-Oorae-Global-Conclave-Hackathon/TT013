@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">தமிழ் டெக்</string>
+    <string name="dashboard_message">டாஷ்போர்டு</string>
+    <string name="transcript_message">தமிழாக்கம்</string>
+    <string name="forms_message">வடிவம்</string>
+    <string name="reports_message">அறிக்கை</string>
+    <string name="settings_message">அமைப்புகள்</string>
+    <string name="personal">சொந்த விவரங்கள்</string>
+    <string name="full_name">"உங்கள் முழு பெயர் என்ன ?</string>
+    <string name="you_age">"உங்கள் வயது என்ன ?"</string>
+    <string name="father_name">"உங்கள் தந்தையின் பெயர் என்ன ?"</string>
+    <string name="mother_name">" உங்கள் தாயின் பெயர் என்ன?"</string>
+    <string name="your_address">" உங்களுடைய முகவரி என்ன ?"</string>
+    <string name="submit">"படிவம் சமர்ப்பிக்கவும்"</string>
+    <string name="welcome">நல்வரவு</string>
+    <string name="lang">"உங்கள் மொழியைத் தேர்வுசெய்க"</string>
+    <string name="wel_back">"மகிழ்ச்சியுடன் வரவேற்கிறோம்!"</string>
+    <string name="exist">"உங்கள் இருக்கும் அக்கவுண்ட் உள்நுழைக "</string>
+    <string name="email">மின்னஞ்சல் முகவரி</string>
+    <string name="pass">கடவுச்சொல்</string>
+    <string name="fpass">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="log">"இருக்கும் அக்கவுண்ட் உள்நுழைக"</string>
+    <string name="no_acc">"அக்கவுண்ட் இல்லையா?"</string>
+    <string name="join">"எங்களுடன் சேர்க"</string>
+    <string name="let">"தொடங்குவோம்!"</string>
+    <string name="create">"எல்லா அம்சங்களையும் பெற எங்களுடன் ஒரு அக்கவுண்ட் உருவாக்கவும் "</string>
+    <string name="user">பயனர்பெயர்</string>
+    <string name="pho">தொலைபேசி எண்</string>
+    <string name="cpass">கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="cre">உருவாக்கவும்</string>
+    <string name="ald">"ஏற்கனவே ஒரு அக்கவுண்ட் உள்ளதா?"</string>
+    <string name="loghere">இங்கே உள்நுழைக</string>
+    <string name="logout">வெளியேறு</string>
+    <string name="Start">பதிவு செய்யத் தொடங்குங்கள்</string>
+    <string name="savet">டிரான்ஸ்கிரிப்டைச் சேமிக்கவும்</string>
+
+</resources>

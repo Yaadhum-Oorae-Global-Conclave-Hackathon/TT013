@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome back!"
+            android:text="@string/wel_back"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="30dp"
             android:layout_marginTop="15dp"
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Log in to your existing account "
+            android:text="@string/exist"
             android:layout_marginTop="5dp"/>
 
         <EditText
@@ -44,7 +44,7 @@
             android:paddingLeft="20dp"
             android:layout_marginLeft="15sp"
             android:layout_marginRight="15sp"
-            android:hint="Email ID"
+            android:hint="@string/email"
             android:textColor="@color/clr_light_blue"
             android:textStyle="bold"
             android:inputType="textEmailAddress"
@@ -61,7 +61,7 @@
             android:paddingLeft="20dp"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
-            android:hint="Password"
+            android:hint="@string/pass"
             android:inputType="numberPassword"
             android:background="@drawable/bg_white_edit_text"/>
 
@@ -69,7 +69,7 @@
             android:id="@+id/forgot_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Forgot Password?"
+            android:text="@string/fpass"
             android:textStyle="bold"
             android:textSize="15sp"
             android:padding="5dp"
@@ -82,7 +82,7 @@
             android:id="@+id/login_button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="LOG IN"
+            android:text="@string/log"
             android:textStyle="bold"
             android:textColor="@android:color/white"
             android:background="@drawable/bg_btn"
@@ -99,7 +99,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account?"
+                android:text="@string/no_acc"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:textStyle="bold" />
@@ -112,7 +112,7 @@
                 android:background="@drawable/text_container1"
                 android:backgroundTint="@color/colorPrimary"
                 android:padding="10dp"
-                android:text="Join us"
+                android:text="@string/join"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />

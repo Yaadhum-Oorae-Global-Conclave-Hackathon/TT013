@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Let's Get Started!"
+            android:text="@string/let"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="30dp"
             android:layout_marginTop="15dp"
@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create an account with us to get all features "
+            android:text="@string/create"
             android:layout_marginTop="5dp"/>
 
         <EditText
@@ -36,7 +36,7 @@
             android:paddingLeft="20dp"
             android:layout_marginLeft="15sp"
             android:layout_marginRight="15sp"
-            android:hint="Username"
+            android:hint="@string/user"
             android:textColor="@color/clr_light_blue"
             android:textStyle="bold"
             android:inputType="text"
@@ -50,7 +50,7 @@
             android:paddingLeft="20dp"
             android:layout_marginLeft="15sp"
             android:layout_marginRight="15sp"
-            android:hint="Email ID"
+            android:hint="@string/email"
             android:textColor="@color/clr_light_blue"
             android:textStyle="bold"
             android:inputType="textEmailAddress"
@@ -64,7 +64,7 @@
             android:paddingLeft="20dp"
             android:layout_marginLeft="15sp"
             android:layout_marginRight="15sp"
-            android:hint="Phone"
+            android:hint="@string/pho"
             android:textColor="@color/clr_light_blue"
             android:textStyle="bold"
             android:inputType="number"
@@ -81,7 +81,7 @@
             android:paddingLeft="20dp"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
-            android:hint="Password"
+            android:hint="@string/pass"
             android:inputType="textPassword"
             android:background="@drawable/bg_white_edit_text"/>
 
@@ -95,7 +95,7 @@
             android:paddingLeft="20dp"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
-            android:hint="Confirm Password"
+            android:hint="@string/cpass"
             android:inputType="textPassword"
             android:background="@drawable/bg_white_edit_text"/>
 
@@ -105,7 +105,7 @@
             android:id="@+id/create_button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="CREATE"
+            android:text="@string/cre"
             android:textStyle="bold"
             android:textColor="@android:color/white"
             android:background="@drawable/bg_btn"
@@ -122,7 +122,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Already have an account?"
+                android:text="@string/ald"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:textStyle="bold" />
@@ -135,7 +135,7 @@
                 android:background="@drawable/text_container1"
                 android:backgroundTint="@color/colorPrimary"
                 android:padding="10dp"
-                android:text="Login here"
+                android:text="@string/loghere"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />

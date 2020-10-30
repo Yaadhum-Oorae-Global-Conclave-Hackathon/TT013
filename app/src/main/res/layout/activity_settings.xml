@@ -24,7 +24,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/text_container1"
                 android:backgroundTint="@android:color/holo_red_dark"
-                android:text="Logout"
+                android:text="@string/logout"
                 android:textColor="@android:color/white"
                 />
         </LinearLayout>

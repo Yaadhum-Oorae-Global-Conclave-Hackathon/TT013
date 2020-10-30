@@ -14,7 +14,7 @@
             android:id="@+id/personal_details_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Personal Details"
+            android:text="@string/personal"
             android:textStyle="bold"
             android:textSize="30sp"
             android:layout_marginTop="20dp"
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="What's your full name ?"
+                android:text="@string/full_name"
                 android:textSize="20sp"
                 />
             <LinearLayout
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="What's your age ?"
+                android:text="@string/you_age"
                 android:textSize="20sp"
                 />
             <LinearLayout
@@ -117,7 +117,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="What's your father's name ?"
+                android:text="@string/father_name"
                 android:textSize="20sp"
                 />
             <LinearLayout
@@ -157,7 +157,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="What's your mother's name ?"
+                android:text="@string/mother_name"
                 android:textSize="20sp"
                 />
             <LinearLayout
@@ -197,7 +197,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="What's your address ?"
+                android:text="@string/your_address"
                 android:textSize="20sp"
                 />
             <LinearLayout
@@ -228,7 +228,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/green"
-            android:text="SUBMIT FORM"
+            android:text="@string/submit"
             android:layout_marginTop="20dp"
             android:textColor="@color/white"
             android:textSize="18sp"

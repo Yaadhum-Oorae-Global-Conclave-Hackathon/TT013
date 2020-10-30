@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">TamilTech</string>
+    <string name="dashboard_message">Dashboard</string>
+    <string name="transcript_message">Transcript</string>
+    <string name="forms_message">Forms</string>
+    <string name="reports_message">Reports</string>
+    <string name="settings_message">Settings</string>
+    <string name="personal">Personal Details</string>
+    <string name="full_name">"What's your full name ?</string>
+    <string name="you_age">"What's your age ?"</string>
+    <string name="father_name">"What's your father's name ?"</string>
+    <string name="mother_name">"What's your mother's name ?"</string>
+    <string name="your_address">"What's your address ?"</string>
+    <string name="submit">"SUBMIT FORM"</string>
+    <string name="welcome">Welcome</string>
+    <string name="lang">"Choose your language"</string>
+    <string name="wel_back">"Welcome back!"</string>
+    <string name="exist">"Log in to your existing account "</string>
+    <string name="email">Email ID</string>
+    <string name="pass">Password</string>
+    <string name="fpass">Forgot Password?</string>
+    <string name="log">"LOG IN"</string>
+    <string name="no_acc">"Don't have an account?"</string>
+    <string name="join">"Join us"</string>
+    <string name="let">"Let's Get Started!"</string>
+    <string name="create">"Create an account with us to get all features "</string>
+    <string name="user">Username</string>
+    <string name="pho">Phone</string>
+    <string name="cpass">Confirm Password</string>
+    <string name="cre">CREATE</string>
+    <string name="ald">"Already have an account?"</string>
+    <string name="loghere">Login here</string>
+    <string name="logout">"Logout"</string>
+    <string name="Start">Start recording</string>
+    <string name="savet">Save transcript</string>
+
 </resources>
