@@ -1,2 +1,2 @@
 # TamilTech
-This project is currently under development
+This project is developed for Yaadhum Oore Global Conclave hackathon
